@@ -1,0 +1,82 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+   /*In this sections we will align all the this qe gonna have in the miodle of the screnn*/
+
+
+  body{
+  height: 100vh;
+  background-size: cover;
+  background-repeat:no-repeat;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  }
+
+  #container{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+/* Styling the main clock */
+
+  .clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100vh;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, .8);
+  }
+
+  /* Styling the section of the day and the date */
+  .day{
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(0, 132, 255, 0.6);
+    border-radius: 5px;
+    margin-top: 10px;
+    justify-content: space-between;
+    box-shadow: 1px 8px 10px rgba(0, 0, 0, .86);
+  }
+
+  .clock div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 132, 255, 0.9);
+    border-radius: 10px;
+    letter-spacing: 3px;
+  }
+
+  .clock span{
+  font-family: 'Poiret One', cursive;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: bolder;
+  }
+
+  .clock .tempo{
+  font-size: 20px;
+  }
+
+  .day span{
+    font-family: 'Poiret One', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 5px;
+  }
